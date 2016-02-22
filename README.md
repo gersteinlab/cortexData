@@ -14,5 +14,7 @@ Example:
 
 `scratch/fas/gerstein/cortex/update.sh fixedReadFilefor1kgphase3`
 
+3. For large directory, git add -A might fail because of memory issue. 
+Do git add readme.txt, then git commit/push (see update.sh)
 
-*STL Aug/15*    
+*STL Feb/16*    
