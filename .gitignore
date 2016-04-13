@@ -1,0 +1,12 @@
+# Igonore everything
+*
+
+# But not these files
+!.gitignore
+!README.md
+!update.sh
+!readme.txt
+
+# Including files in the subdirectories
+!*/readme.txt // somehow this stops working? Ugh...
+#!*/ // do we want this? 
