@@ -9,7 +9,7 @@ done
 echo $MSG
 
 {
-git add -A && 
+git add $(find -maxdepth 1 -name readme.txt) && 
 git commit -am $MSG &&
 git push
 } || {
