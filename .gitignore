@@ -1,5 +1,5 @@
-# Igonore everything
-*
+# Igonore everything in a subfolder
+!/*
 
 # But not these files
 !.gitignore
