@@ -1,5 +1,5 @@
 # Igonore everything in a subfolder
-!/*
+!*
 
 # But not these files
 !.gitignore
@@ -8,5 +8,4 @@
 !readme.txt
 
 # Including files in the subdirectories
-!*/readme.txt // somehow this stops working? Ugh...
-#!*/ // do we want this? 
+!*/readme.txt
