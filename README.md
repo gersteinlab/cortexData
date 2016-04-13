@@ -1,6 +1,10 @@
 # Readme file repository for Gerstein lab
 To share data:
 
+**UPDATE: it is easier if you type three line commands**
+1. git add [your readme.txt]
+2. git commit -m [message]
+3. git push
 
 1. Creat a readme file under your data directory, with the **exact** file name
 *readme.txt*
@@ -14,7 +18,5 @@ Example:
 
 `scratch/fas/gerstein/cortex/update.sh fixedReadFilefor1kgphase3`
 
-3. For large directory, git add -A might fail because of memory issue. 
-Do git add readme.txt, then git commit/push (see update.sh)
 
 *STL Feb/16*    
